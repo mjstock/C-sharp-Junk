@@ -1,0 +1,33 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Utility Calculator" Height="420" Width="422.308"
+    WindowStartupLocation="CenterScreen" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+    <Grid>
+        <Label Content="Cost per Kilowatt-hour" HorizontalAlignment="Left" Margin="43,52,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Home appliance" HorizontalAlignment="Left" Margin="77,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Power Needed in Kilowatts" HorizontalAlignment="Left" Margin="21,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hours Used per Day" HorizontalAlignment="Left" Margin="57,135,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCostPerKW" HorizontalAlignment="Left" Height="23" Margin="178,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TabIndex="1"/>
+        <ComboBox x:Name="cbbAppliance" HorizontalAlignment="Left" Margin="178,80,0,0" VerticalAlignment="Top" Width="120" TabIndex="2"></ComboBox>
+        <TextBox x:Name="txtPowerNeed" HorizontalAlignment="Left" Height="23" Margin="178,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TabIndex="3"/>
+        <ComboBox x:Name="cbbHoursUsed" HorizontalAlignment="Left" Margin="178,135,0,0" VerticalAlignment="Top" Width="120" TabIndex="4"/>
+        <Label Content="Total Cost to run Appliance" HorizontalAlignment="Left" Margin="20,0,0,179" Height="26" VerticalAlignment="Bottom"/>
+        <Label x:Name="lblTotal" Content="" HorizontalAlignment="Left" Margin="178,0,0,175" Width="120" BorderThickness="2" BorderBrush="Black" Height="30" VerticalAlignment="Bottom"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="314,0,0,44" Width="75" IsCancel="True" Height="20" VerticalAlignment="Bottom" TabIndex="7"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="314,0,0,19" Width="75" Height="20" VerticalAlignment="Bottom"/>
+        <Grid x:Name="waterGrid"  Margin="81,166,0,201" HorizontalAlignment="Left" Width="229" Visibility="Hidden">
+            <Label Content="Gallons" HorizontalAlignment="Left" Margin="43,0,0,0" VerticalAlignment="Top"/>
+            <Label Content="Cost per Gallon" HorizontalAlignment="Left" Margin="0,26,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtGallon" HorizontalAlignment="Left" Height="23" Margin="97,3,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.75,0.478" TabIndex="5"/>
+            <TextBox x:Name="txtCostGallon" HorizontalAlignment="Left" Height="23" Margin="97,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TabIndex="6"/>
+        </Grid>
+        <ListBox x:Name="lstTotal" HorizontalAlignment="Left" Margin="21,0,0,10" Width="277" Height="160" VerticalAlignment="Bottom">
+            <ListBox.GroupStyle>
+                <GroupStyle HeaderStringFormat="Appliance"/>
+                <GroupStyle HeaderStringFormat="Hours Used"/>
+                <GroupStyle HeaderStringFormat="Cost"/>
+            </ListBox.GroupStyle>
+        </ListBox>
+    </Grid>
+</Window>
