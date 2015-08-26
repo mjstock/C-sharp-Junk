@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Table>
+  <Appliance>
+    <Appliance_ID></Appliance_ID>
+    <Appliance_Name></Appliance_Name>
+    <Appliance_PowerNeed></Appliance_PowerNeed>
+    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_WaterNeed></Appliance_WaterNeed>
+    <Appliance_PowerCost></Appliance_PowerCost>
+    <Appliance_PowerUsed></Appliance_PowerUsed>
+    <Appliance_HoursUsed></Appliance_HoursUsed>
+    <Appliance_PowerResult></Appliance_PowerResult>
+    <Appliance_WaterUsed></Appliance_WaterUsed>
+    <Appliance_WaterCost></Appliance_WaterCost>
+    <Appliance_WaterResult></Appliance_WaterResult>
+  </Appliance>
+<Appliance>
+    <Appliance_ID></Appliance_ID>
+    <Appliance_Name></Appliance_Name>
+    <Appliance_PowerNeed></Appliance_PowerNeed>
+    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_WaterNeed></Appliance_WaterNeed>
+    <Appliance_PowerCost></Appliance_PowerCost>
+    <Appliance_PowerUsed></Appliance_PowerUsed>
+    <Appliance_HoursUsed></Appliance_HoursUsed>
+    <Appliance_PowerResult></Appliance_PowerResult>
+    <Appliance_WaterUsed></Appliance_WaterUsed>
+    <Appliance_WaterCost></Appliance_WaterCost>
+    <Appliance_WaterResult></Appliance_WaterResult>
+  </Appliance>
+<Appliance>
+    <Appliance_ID></Appliance_ID>
+    <Appliance_Name></Appliance_Name>
+    <Appliance_PowerNeed></Appliance_PowerNeed>
+    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_WaterNeed></Appliance_WaterNeed>
+    <Appliance_PowerCost></Appliance_PowerCost>
+    <Appliance_PowerUsed></Appliance_PowerUsed>
+    <Appliance_HoursUsed></Appliance_HoursUsed>
+    <Appliance_PowerResult></Appliance_PowerResult>
+    <Appliance_WaterUsed></Appliance_WaterUsed>
+    <Appliance_WaterCost></Appliance_WaterCost>
+    <Appliance_WaterResult></Appliance_WaterResult>
+  </Appliance>
+<Appliance>
+    <Appliance_ID></Appliance_ID>
+    <Appliance_Name></Appliance_Name>
+    <Appliance_PowerNeed></Appliance_PowerNeed>
+    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_WaterNeed></Appliance_WaterNeed>
+    <Appliance_PowerCost></Appliance_PowerCost>
+    <Appliance_PowerUsed></Appliance_PowerUsed>
+    <Appliance_HoursUsed></Appliance_HoursUsed>
+    <Appliance_PowerResult></Appliance_PowerResult>
+    <Appliance_WaterUsed></Appliance_WaterUsed>
+    <Appliance_WaterCost></Appliance_WaterCost>
+    <Appliance_WaterResult></Appliance_WaterResult>
+  </Appliance>
+<Appliance>
+    <Appliance_ID></Appliance_ID>
+    <Appliance_Name></Appliance_Name>
+    <Appliance_PowerNeed></Appliance_PowerNeed>
+    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_WaterNeed></Appliance_WaterNeed>
+    <Appliance_PowerCost></Appliance_PowerCost>
+    <Appliance_PowerUsed></Appliance_PowerUsed>
+    <Appliance_HoursUsed></Appliance_HoursUsed>
+    <Appliance_PowerResult></Appliance_PowerResult>
+    <Appliance_WaterUsed></Appliance_WaterUsed>
+    <Appliance_WaterCost></Appliance_WaterCost>
+    <Appliance_WaterResult></Appliance_WaterResult>
+  </Appliance>
+<Appliance>
+    <Appliance_ID></Appliance_ID>
+    <Appliance_Name></Appliance_Name>
+    <Appliance_PowerNeed></Appliance_PowerNeed>
+    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_WaterNeed></Appliance_WaterNeed>
+    <Appliance_PowerCost></Appliance_PowerCost>
+    <Appliance_PowerUsed></Appliance_PowerUsed>
+    <Appliance_HoursUsed></Appliance_HoursUsed>
+    <Appliance_PowerResult></Appliance_PowerResult>
+    <Appliance_WaterUsed></Appliance_WaterUsed>
+    <Appliance_WaterCost></Appliance_WaterCost>
+    <Appliance_WaterResult></Appliance_WaterResult>
+  </Appliance>
+<Appliance>
+    <Appliance_ID></Appliance_ID>
+    <Appliance_Name></Appliance_Name>
+    <Appliance_PowerNeed></Appliance_PowerNeed>
+    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_WaterNeed></Appliance_WaterNeed>
+    <Appliance_PowerCost></Appliance_PowerCost>
+    <Appliance_PowerUsed></Appliance_PowerUsed>
+    <Appliance_HoursUsed></Appliance_HoursUsed>
+    <Appliance_PowerResult></Appliance_PowerResult>
+    <Appliance_WaterUsed></Appliance_WaterUsed>
+    <Appliance_WaterCost></Appliance_WaterCost>
+    <Appliance_WaterResult></Appliance_WaterResult>
+  </Appliance>
+</Table>
