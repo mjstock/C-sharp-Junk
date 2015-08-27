@@ -7,14 +7,19 @@ Public Class FileManager
     Dim reader As StreamReader
     Dim isOpenToRead As Boolean
     Dim isOpenToWrite As Boolean
+    Dim xmlDoc As New XmlDocument()
+    Dim _numberOfEntrys As Integer
+
+    Sub FileManager()
+        _numberOfEntrys = CInt(xmlDoc.LastChild("Appliance_ID").InnerText)
+    End Sub
 
     'file.Exists(filename) checks for file avalability
     'file.endOfStream checks for end of file will result in a true
     'file.ReadToEnd() reads everything in file
 
-    Public Sub readXML(ByRef Appliance As Type)
+    Public Sub readXML(ByRef Appliance As Object, ByVal id As Integer)
         Dim app As Appliance = DirectCast(Activator.CreateInstance(Appliance), Object)
-        Dim xmlDoc As New XmlDocument()
         xmlDoc.Load("XMLAppliance.xml") ' file name
         Dim nodes As XmlNodeList = xmlDoc.DocumentElement.SelectNodes("/Table/Appliance")
         For Each nobe As XmlNode In nodes
@@ -32,6 +37,15 @@ Public Class FileManager
         Next
 
     End Sub
+    Property numberOfEntrys As Integer
+        Get
+            Return _numberOfEntrys
+        End Get
+        Private Set(value As Integer)
+            _numberOfEntrys = value
+        End Set
+    End Property
+
 
 
 End Class

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Table>
   <Appliance>
-    <Appliance_ID></Appliance_ID>
+    <Appliance_ID>0</Appliance_ID>
     <Appliance_Name></Appliance_Name>
     <Appliance_PowerNeed></Appliance_PowerNeed>
-    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_NeedWater>false</Appliance_NeedWater>
     <Appliance_WaterNeed></Appliance_WaterNeed>
     <Appliance_PowerCost></Appliance_PowerCost>
     <Appliance_PowerUsed></Appliance_PowerUsed>
@@ -15,10 +15,10 @@
     <Appliance_WaterResult></Appliance_WaterResult>
   </Appliance>
 <Appliance>
-    <Appliance_ID></Appliance_ID>
-    <Appliance_Name></Appliance_Name>
+    <Appliance_ID>1</Appliance_ID>
+    <Appliance_Name>Refrigerator</Appliance_Name>
     <Appliance_PowerNeed></Appliance_PowerNeed>
-    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_NeedWater>false</Appliance_NeedWater>
     <Appliance_WaterNeed></Appliance_WaterNeed>
     <Appliance_PowerCost></Appliance_PowerCost>
     <Appliance_PowerUsed></Appliance_PowerUsed>
@@ -29,10 +29,10 @@
     <Appliance_WaterResult></Appliance_WaterResult>
   </Appliance>
 <Appliance>
-    <Appliance_ID></Appliance_ID>
-    <Appliance_Name></Appliance_Name>
+    <Appliance_ID>2</Appliance_ID>
+    <Appliance_Name>TV</Appliance_Name>
     <Appliance_PowerNeed></Appliance_PowerNeed>
-    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_NeedWater>false</Appliance_NeedWater>
     <Appliance_WaterNeed></Appliance_WaterNeed>
     <Appliance_PowerCost></Appliance_PowerCost>
     <Appliance_PowerUsed></Appliance_PowerUsed>
@@ -43,10 +43,10 @@
     <Appliance_WaterResult></Appliance_WaterResult>
   </Appliance>
 <Appliance>
-    <Appliance_ID></Appliance_ID>
-    <Appliance_Name></Appliance_Name>
+    <Appliance_ID>3</Appliance_ID>
+    <Appliance_Name>Fan</Appliance_Name>
     <Appliance_PowerNeed></Appliance_PowerNeed>
-    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_NeedWater>false</Appliance_NeedWater>
     <Appliance_WaterNeed></Appliance_WaterNeed>
     <Appliance_PowerCost></Appliance_PowerCost>
     <Appliance_PowerUsed></Appliance_PowerUsed>
@@ -57,10 +57,10 @@
     <Appliance_WaterResult></Appliance_WaterResult>
   </Appliance>
 <Appliance>
-    <Appliance_ID></Appliance_ID>
-    <Appliance_Name></Appliance_Name>
+    <Appliance_ID>4</Appliance_ID>
+    <Appliance_Name>Computer</Appliance_Name>
     <Appliance_PowerNeed></Appliance_PowerNeed>
-    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_NeedWater>false</Appliance_NeedWater>
     <Appliance_WaterNeed></Appliance_WaterNeed>
     <Appliance_PowerCost></Appliance_PowerCost>
     <Appliance_PowerUsed></Appliance_PowerUsed>
@@ -71,10 +71,10 @@
     <Appliance_WaterResult></Appliance_WaterResult>
   </Appliance>
 <Appliance>
-    <Appliance_ID></Appliance_ID>
-    <Appliance_Name></Appliance_Name>
+    <Appliance_ID>5</Appliance_ID>
+    <Appliance_Name>Dish Washer</Appliance_Name>
     <Appliance_PowerNeed></Appliance_PowerNeed>
-    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_NeedWater>true</Appliance_NeedWater>
     <Appliance_WaterNeed></Appliance_WaterNeed>
     <Appliance_PowerCost></Appliance_PowerCost>
     <Appliance_PowerUsed></Appliance_PowerUsed>
@@ -85,10 +85,10 @@
     <Appliance_WaterResult></Appliance_WaterResult>
   </Appliance>
 <Appliance>
-    <Appliance_ID></Appliance_ID>
-    <Appliance_Name></Appliance_Name>
+    <Appliance_ID>6</Appliance_ID>
+    <Appliance_Name>Washer</Appliance_Name>
     <Appliance_PowerNeed></Appliance_PowerNeed>
-    <Appliance_NeedWater></Appliance_NeedWater>
+    <Appliance_NeedWater>true</Appliance_NeedWater>
     <Appliance_WaterNeed></Appliance_WaterNeed>
     <Appliance_PowerCost></Appliance_PowerCost>
     <Appliance_PowerUsed></Appliance_PowerUsed>
