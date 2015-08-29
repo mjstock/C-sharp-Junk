@@ -12,6 +12,7 @@
     Private _waterCost As Double
     Private _waterResult As Double
 
+
     Property waterResult As Double
         Get
             Return _waterResult

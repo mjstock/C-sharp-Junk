@@ -14,7 +14,7 @@
     <Appliance_WaterCost></Appliance_WaterCost>
     <Appliance_WaterResult></Appliance_WaterResult>
   </Appliance>
-<Appliance>
+<Appliance ID="1">
     <Appliance_ID>1</Appliance_ID>
     <Appliance_Name>Refrigerator</Appliance_Name>
     <Appliance_PowerNeed></Appliance_PowerNeed>

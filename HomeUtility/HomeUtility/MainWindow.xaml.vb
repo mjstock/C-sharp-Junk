@@ -10,7 +10,8 @@
 Class MainWindow
     Private usesWater As Boolean = False
     Dim file As New FileManager
-    Dim appliance As List(Of Appliance)
+    Dim app As ArrayList
+    Dim count As Integer
 
     Private Sub btnExit_Click(sender As Object, e As RoutedEventArgs) Handles btnExit.Click
         'Close application
@@ -31,10 +32,7 @@ Class MainWindow
 
     Private Sub cbbAppliance_Loaded(sender As Object, e As RoutedEventArgs) Handles cbbAppliance.Loaded
         'adds the appliance options to the combo box
-        Dim count As Integer = file.numberOfEntrys
-        For a As Integer = 0 To count
-            file.readXML(appliance(a), a)
-        Next
+       
         cbbAppliance.Items.Add("")
         cbbAppliance.Items.Add("Refrigerator")
         cbbAppliance.Items.Add("TV")
@@ -174,6 +172,16 @@ Class MainWindow
             MessageBox.Show("Invaled entry. Please enter a number.")
         End If
         resultDisplay()
+    End Sub
+
+    Private Sub MainWindow_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
+        file = New FileManager()
+
+        count = file.numberOfEntrys
+        For a As Integer = 0 To count
+            app(a) = New Appliance()
+            file.readXML(app(a), a)
+        Next
     End Sub
 End Class
 
